@@ -12,11 +12,13 @@
 }
 
 body {
-  height: 100%;
+  height: 100% !important;
   background-color: #1c1427 !important;
 }
-
-.form-control{
+html {
+  height: 100% !important;
+}
+.form-control {
   margin-top: 4em;
   width: 70% !important;
   height: 10em !important;
@@ -37,9 +39,16 @@ textarea:focus {
   border-radius: 25px !important;
 }
 
-.form-select{
-    width: 40% !important;
-    background-color: #40394a !important;
-    color: #ccffbd !important;
-    border-color: 1px solid #7eca9c;
+.form-select {
+  width: 40% !important;
+  background-color: #40394a !important;
+  color: #ccffbd !important;
+  border-color: 1px solid #7eca9c;
+}
+
+footer {
+  position: absolute !important;
+  bottom: 1px !important;
+  width: 100%;
+  color: #40394a;
 }
