@@ -33,14 +33,26 @@
 
     <div class="container d-flex justify-content-center">
       <textarea
+        id="text"
         class="form-control"
         aria-label="With textarea"
         placeholder="Write something..."
       ></textarea>
     </div>
     <div class="container-fluid mt-4 d-flex justify-content-center">
-      <button type="button" class="btn btn-success"><i class='bx bx-play'></i></button>
+      <select
+      id="language"
+      class="form-select form-select-sm bg-dark"
+      aria-label=".form-select-lg example"
+    >
+    </select>
     </div>
+    <div class="container-fluid mt-4 d-flex justify-content-center">
+      <button id="playbtn" type="button" class="btn btn-success">
+        <i class="bx bx-play"></i>
+      </button>
+    </div>
+
 
     <script src="JS/index.js"></script>
     <!-- Bootstrap JS CDN -->

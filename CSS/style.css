@@ -1,38 +1,45 @@
-.bxs-microphone{
-    font-size:30px ;
-    color: #7ECA9C
+.bxs-microphone {
+  font-size: 30px;
+  color: #7eca9c;
 }
 
-.navbar{
-    background-color: #40394A;
+.navbar {
+  background-color: #40394a;
 }
 
-.navbar-brand{
-    color: #7ECA9C !important;
+.navbar-brand {
+  color: #7eca9c !important;
 }
 
-body{
-    height: 100%;
-    background-color: #1C1427 !important;
+body {
+  height: 100%;
+  background-color: #1c1427 !important;
 }
 
 .form-control{
-    margin-top: 4em;
-    width: 70% !important;
-    height: 10em !important;
-    background-color: #40394A !important;
-    color: #CCFFBD !important;
-    border-color: 1px solid #7ECA9C;
+  margin-top: 4em;
+  width: 70% !important;
+  height: 10em !important;
+  background-color: #40394a !important;
+  color: #ccffbd !important;
+  border-color: 1px solid #7eca9c;
 }
 
-.form-control::placeholder{
-    color: #CCFFBD !important;
+.form-control::placeholder {
+  color: #ccffbd !important;
 }
 
-textarea:focus{
-    outline: none;
+textarea:focus {
+  outline: none;
 }
 
-.btn{
-    border-radius: 25px !important;
+.btn {
+  border-radius: 25px !important;
+}
+
+.form-select{
+    width: 40% !important;
+    background-color: #40394a !important;
+    color: #ccffbd !important;
+    border-color: 1px solid #7eca9c;
 }
